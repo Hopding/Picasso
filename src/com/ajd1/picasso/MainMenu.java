@@ -31,7 +31,6 @@ public class MainMenu {
 		Group root = new Group();
 		stage = primaryStage;
 		startMenu = new Scene(root, 500, 300);
-		root.getChildren().add(new Button());
 		
 		//Create gradient background
 		Rectangle colors = new Rectangle(startMenu.getWidth(), startMenu.getHeight(),
